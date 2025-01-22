@@ -1,0 +1,37 @@
+<style>
+    div {
+        display: block;
+        unicode-bidi: isolate;
+    }
+    .card-body {
+        line-height: 1.2;
+    }
+    .problem-desc {
+        background: linear-gradient(90deg, #e2ffee, #fafafa);
+    }
+</style>
+
+
+<div class="card-body" style="max-height: 1000px; overflow: auto; padding: 1rem;"><div class="problem-heading card-title h5">Yet another climbing problem </div><p class="card-text-scroll card-text"><div class="problem-desc"><h5 style="color: rgb(0, 135, 56);">Program Description</h5><div><p>Tom is currently standing at stair 0 and he wants to reach stair numbered X.</p>
+<p>He can climb either Y steps or 1 step in move.</p>
+<p>Find the <strong>minimum</strong> number of moves required by him to reach <strong>exactly</strong> the stair numbered X.</p>
+<p><strong>I</strong></p>
+</div></div><div class="problem-desc"><h5 style="color: rgb(0, 135, 56);">Input Format</h5><p><ul>
+<li style="margin-left:1.5em;"><span style="color: rgb(31,36,49);background-color: rgb(255,255,255);font-size: 13px;font-family: Poppins, sans-serif;">The first line of input will contain a single integer T, denoting the number of test cases.</span></li>
+<li style="margin-left:1.5em;"><span style="color: rgb(31,36,49);background-color: rgb(255,255,255);font-size: 13px;font-family: Poppins, sans-serif;">Only line of each test case consists of two integers X and Y denoting the number of stair Tom wants to reach and the number of stairs he can climb in one move respectively.</span>&nbsp;</li>
+</ul>
+</p></div><div class="problem-desc"><h5 style="color: rgb(0, 135, 56);">Output Format</h5><p>For each test case, output the minimum number of moves required by him to reach exactly the stair numbered X.&nbsp;
+</p></div><div class="problem-desc"><h5 style="color: rgb(0, 135, 56);">Constraints</h5><p>
+1 ≤ T ≤ 500
+1 ≤ A, B ≤100&nbsp;
+
+</p></div><div class="problem-desc"><h5 style="color: rgb(0, 135, 56);">Explaination</h5><p>Testcase 1, Tom can make 2 moves and climb 2 steps in each move to reach stair numbered 4.
+Testcase 2, Tom can make a minimum of 4 moves. He can climb 3 steps in 2 of those moves and 1 step in remaining 2 moves to reach stair numbered 8.
+Testcase 3, Tom can make 3 moves and climb 1 step in each move to reach stair numbered 3. Notice that even though he can make a move in which he can climb 4 steps at a time, he doesn't reach the exact stair number he has to. &nbsp;
+</p></div><h5 style="color: rgb(0, 135, 56);">Input-1</h5><div class="problem-input"><p><p><span style="font-family: Poppins, sans-serif;">4<br>4 2<br>8 3<br>3 4<br>2 1</span>&nbsp;</p>
+</p></div><h5 style="color: rgb(0, 135, 56);">Output-1</h5><div class="problem-input"><p><p style="text-align: start;"><span style="font-family: Poppins, sans-serif;">2<br>4<br>3<br>2</span></p>
+<p style="text-align: start;"></p>
+<p style="text-align: left;"></p>
+</p></div><div><h5 style="color: rgb(0, 135, 56);">Input-2</h5><div class="problem-input"><p><p><span style="font-family: Poppins, sans-serif;">5<br>46 11<br>12 3<br>19 5<br>5 7<br>17 23</span>&nbsp;</p>
+</p></div><h5 style="color: rgb(0, 135, 56);">Output-2</h5><div class="problem-input"><p><p><span style="font-family: Poppins, sans-serif;">6<br>4<br>7<br>5<br>17</span>&nbsp;</p>
+</p></div></div></p></div>
